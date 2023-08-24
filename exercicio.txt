@@ -1,0 +1,7 @@
+git status -s
+git add calculadora.py
+git log --pretty=oneline
+git commit
+git tag -a v1.2.0 8189e0b1fad0c2b0d210a513f7374c72b5309b14
+git tag -a v1.3.0 d2d4992f2e455fa7bf16f56589eaf4a95d5b5351
+git push --tags
